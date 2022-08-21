@@ -7,14 +7,16 @@ namespace MyPokerSolver
     {
         static void Main(string[] args)
         {
+
             //Game Inputs
-            int numIterations = 100;
+            //TO DO: Add Command line inputs?
+            int numIterations = 50;
             List<string> board = new List<string>() { "2d", "2s", "2c", "2h", "3d"};
             List<string> player1Range = new List<string>() { "AA", "KK", "QQ"};
             List<string> player2Range = new List<string>() { "AA", "KK", "QQ"};
             int startPotSize = 50;
             int effectiveStackSize = 100;
-            List<float> availableBetSizes = new List<float>() { (float)0.5 };
+            List<float> availableBetSizes = new List<float>() { (float)0.5};
 
             //set pot size, effective stacks and player actions
             PokerRules.SetStart(startPotSize, effectiveStackSize);

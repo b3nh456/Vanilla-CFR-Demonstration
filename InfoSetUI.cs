@@ -16,7 +16,7 @@ namespace MyPokerSolver
             {
                 Console.WriteLine("\n\n=========================================================");
                 Console.WriteLine("Input Actions After Start History For Information Sets Strategy You Would Like to View");
-                Console.WriteLine("E.G \"C0_C0_Ks_R0\" to view plaer strategy after check->check->KingSpades->bet (Press Enter to view first information set strategy)");
+                Console.WriteLine("E.G \"C0_C0_Ks_R0\" to view player strategy after check->check->KingSpades->bet (Press Enter to view first information set strategy)");
                 Console.WriteLine("Put \"+\" to add to previous command and \"quit\" to exit");
                 Console.Write("INPUT: "); string command = Console.ReadLine();
 
