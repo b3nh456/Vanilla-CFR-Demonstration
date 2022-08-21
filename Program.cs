@@ -10,7 +10,7 @@ namespace MyPokerSolver
 
             //Game Inputs
             //TO DO: Add Command line inputs?
-            int numIterations = 50;
+            int numIterations = 500;
             List<string> board = new List<string>() { "2d", "2s", "2c", "2h", "3d"};
             List<string> player1Range = new List<string>() { "AA", "KK", "QQ"};
             List<string> player2Range = new List<string>() { "AA", "KK", "QQ"};
@@ -40,9 +40,9 @@ namespace MyPokerSolver
             VanillaCFRTrainer trainer = new VanillaCFRTrainer();
 
             //Train Trainer
-            float avgUtil = trainer.Train(numIterations, boardArranged, P1HandCombos, P2HandCombos);
+            float P1Util = trainer.Train(numIterations, boardArranged, P1HandCombos, P2HandCombos);
 
-            Console.WriteLine($"Player 1 Utility: {avgUtil}");
+            Console.WriteLine($"Player 1 Utility: {P1Util} Player 2 Utility: {startPotSize-P1Util}");
 
             InfoSetUI.View(trainer, board.Count);
 

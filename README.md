@@ -1,40 +1,40 @@
 <p1>
 <h1>Vanilla CFR Demonstration</h1>
 
-This repository is for a simple demonstration of vanilla counterfactual regret minimisation algorithm
+This repository is for a simple demonstration of vanilla counterfactual regret minimisation algorithm.
+This can be used to find Nash Equilibrium solutions in **post flop**
 
 <h3>Inputs </h3>
-Within Program Main you can manually change the following inputs:
--Number of iterations
--Starting Board
--Player 1 Range
--Player 2 Range
--Start pot size
--Effective stack size
--Available bet sizes (as a percentage of the pot)
+Within Program Main you can manually change the following inputs:<br>
+-Number of iterations<br>
+-Starting Board<br>
+-Player 1 Range<br>
+-Player 2 Range<br>
+-Start pot size<br>
+-Effective stack size<br>
+-Available bet sizes (as a percentage of the pot)<br>
 
-Note: Due to this being designed as a demonstration the code and algorithm are very slow, and will take a long
-time to run through any sizable game tree.
+Note: Due to this being designed as a demonstration the code and algorithm are very slow, and will take a long time to run through any sizable game tree.<br>
 
 <h3> CLI </h3>
 After running all the iterations a primitive CLI will be available to view the strategies from the algorithm
 
-Action Key:
-C0 = Check or Call dependant on context
-F0 = Fold
-R0 = Raise by amount of bet size 1
-R1 = Raise by amount of bet size 2
-R2 = etc.
-S0 = All in
+Action Key:<br>
+C0 = Check or Call dependant on context<br>
+F0 = Fold<br>
+R0 = Raise by amount of bet size 1<br>
+R1 = Raise by amount of bet size 2<br>
+R2 = etc.<br>
+S0 = All in<br>
 
-Card Key:
-Card Rank: 2-9,T,J,Q,K,A
-Card Suit: s=spades, d=diamonds, h=hearts, c=clubs
+Card Key:<br>
+Card Rank: 2-9,T,J,Q,K,A<br>
+Card Suit: s=spades, d=diamonds, h=hearts, c=clubs<br>
 
-Output will be of the form:
-[history] [Stategy]
+Output will be of the form:<br>
+[history] [Stategy]<br>
 
-EG. A history of "Ad_As_2d_3s_5c_R0_R0"
-Will output the strategy of player 1 who has a hand of Ace diamonds, Ace spades after a 2d,3s,5c flop and after raising and then being re-raised
+EXAMPLE: A history of "Ad_As_2d_3s_5c_R0_R0"<br>
+Will output the strategy of player 1 who has a hand of Ace diamonds, Ace spades after a 2d,3s,5c flop and after raising and then being re-raised<br>
 </p1>
 
