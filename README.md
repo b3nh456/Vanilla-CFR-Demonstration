@@ -1,4 +1,6 @@
+<p1>
 <h1>Vanilla CFR Demonstration<h1>
+
 This repository is for a simple demonstration of vanilla counterfactual regret minimisation algorithm
 
 Within Program Main you can manually change the following inputs:
@@ -24,4 +26,5 @@ R2 = etc.
 
 Output will be of the form:
 [history] [Stategy]
+<p1>
 
