@@ -1,5 +1,5 @@
 <p1>
-<h1>Vanilla CFR Demonstration<h1>
+<h1>Vanilla CFR Demonstration</h1>
 
 This repository is for a simple demonstration of vanilla counterfactual regret minimisation algorithm
 
@@ -26,5 +26,5 @@ R2 = etc.
 
 Output will be of the form:
 [history] [Stategy]
-<p1>
+</p1>
 
