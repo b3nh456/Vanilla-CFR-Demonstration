@@ -8,7 +8,7 @@ namespace MyPokerSolver
         static void Main(string[] args)
         {
             //Game Inputs
-            int numIterations = 1000;
+            int numIterations = 100;
             List<string> board = new List<string>() { "2d", "2s", "2c", "2h", "3d"};
             List<string> player1Range = new List<string>() { "AA", "KK", "QQ"};
             List<string> player2Range = new List<string>() { "AA", "KK", "QQ"};
