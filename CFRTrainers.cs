@@ -1,21 +1,10 @@
-﻿using ScottPlot;
-using System;
-using System.Collections.Concurrent;
+﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
-using System.Text;
-using System.Threading;
 using System.Threading.Tasks;
 
 namespace MyPokerSolver
 {
-    //TO DO - move else where
-    /// <summary>
-    /// 
-    /// NOTE: NODE UTILITY IS ALWAYS FROM PLAYER 1 PERSPECTIVE, METHODS WITHIN GAMESTATE CLASS SORT IT OUT
-    /// 
-    /// </summary>
     public class VanillaCFRTrainer
     {
         public Dictionary<string, InformationSet> InfoSetMap { get; set; }

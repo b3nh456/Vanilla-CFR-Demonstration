@@ -10,8 +10,4 @@
     <Compile Remove="GameRules - BackUp.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <PackageReference Include="ScottPlot.WinForms" Version="4.1.52" />
-  </ItemGroup>
-
 </Project>
